@@ -1,18 +1,18 @@
-#include <iostream>
-#include <math.h>
-#include <bits/stdc++.h>
-using namespace std;
-int main()
-{
-    int a, b;
-    cin >> a >> b;
-    if (a >= b)
+    #include <iostream>
+    #include <math.h>
+    #include <bits/stdc++.h>
+    using namespace std;
+    int main()
     {
-        cout << "NO" << endl;
-    }
-    else
-    {
-        cout << "YES" << endl;
-    }
-    return 0;
-}
+        int a, b;
+        cin >> a >> b;
+        if (a >= b)
+        {
+            cout << "NO" << endl;
+        }
+        else
+        {
+            cout << "YES" << endl;
+        }
+        return 0;
+    } 
