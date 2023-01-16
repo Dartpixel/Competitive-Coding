@@ -1,29 +1,32 @@
 #include <iostream>
-
+#define test         \
+    int hvycoder;    \
+    cin >> hvycoder; \
+    while (hvycoder--)
+#define JAYSHRIRAM ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(NULL);
 using namespace std;
 
 int main()
 {
-    int testcase;
-    cin >> testcase;
-    while (testcase--)
+
+    JAYSHRIRAM
+
+    test
     {
-        int a, b, c;
-        cin >> a >> b >> c;
-        if (c >= b)
+        int x, y, z;
+        cin >> x >> y >> z;
+        int d = y / z;
+        if (y <= z)
         {
-            cout << a << endl;
+            cout << 1 * x << endl;
+        }
+        else if (y % z == 0)
+        {
+            cout << d * x << endl;
         }
         else
         {
-            if (b % c == 0)
-            {
-                cout << (a * (b / c)) << endl;
-            }
-            else
-            {
-                cout << (a * (b / c + 1)) << endl;
-            }
+            cout << (x * d) + x << endl;
         }
     }
     return 0;
