@@ -31,5 +31,5 @@ int main()
         transform(str.begin(), str.end(), str.begin(), ::tolower);
         cout << str << endl;
     }
-    return 0;
+    return 0;  
 }
