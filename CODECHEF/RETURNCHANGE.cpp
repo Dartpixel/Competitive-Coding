@@ -9,7 +9,7 @@ int main()
     {
         int n;
         cin >> n;
-        int x = n % 10;
+        s int x = n % 10;
         if (x == 0)
         {
             cout << (100 - n) << endl;
