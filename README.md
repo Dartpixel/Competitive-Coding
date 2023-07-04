@@ -3,4 +3,4 @@
   Find all the problem solutions for CP questions here.
   HAPPY CODING :)
 
-  Good to go, gg
+  Good to go, gg!
