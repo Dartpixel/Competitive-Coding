@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-    // your code goes here
     int t;
     std::cin >> t;
     while (t--)
@@ -18,9 +17,7 @@ int main()
         }
         for (int i = 0; i < 3; i++)
         {
-
             cin >> hero[i];
-
             if (hero[i] == 1)
                 hONE++;
         }
